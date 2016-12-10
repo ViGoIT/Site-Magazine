@@ -1,0 +1,63 @@
+@import url(reset.css);
+
+body{
+	font: 13px/1.39 Arial, Verdana, Tahoma, sans-serif;
+}
+
+header{
+	margin: 0 auto;
+	min-width: 960px;
+	max-width: 1400px;
+	overflow: hidden;
+}
+
+a{
+	text-decoration: none;
+}
+
+nav {
+	max-width: 1400px;
+	min-width: 960px;
+	height: 49px;
+	margin: 0 auto;
+}
+
+nav a {
+	color: #ebebeb;
+	font-size: 12px;
+	padding: 16px 15px;
+	display: block;
+}
+
+nav a:hover{
+	background: url(../images/nav-hover.png) repeat-x;
+}
+
+nav ul li {
+	float: left;
+	text-transform: uppercase;
+}
+
+#logo {
+	width: 241px;
+	height: 46px;
+	float: left;
+	margin-top: 44px;
+	margin-bottom: 42px;
+	margin-left: 10px;
+}
+
+#banner{
+	width: 468px;
+	height: 60px;
+	float: right;
+	margin-top: 34px;
+	margin-right: 10px;
+}
+
+#top-menu {
+	height: 49px;
+	min-width: 960px;
+	width: 100%;
+	background: url(../images/top-nav-bg.png) repeat-x;
+}
