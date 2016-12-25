@@ -2,6 +2,8 @@
 
 body{
 	font: 13px/1.39 Arial, Verdana, Tahoma, sans-serif;
+	background: url(../images/main_bg.jpg);
+	color: #5e5e5e;
 }
 
 header{
@@ -11,11 +13,26 @@ header{
 	overflow: hidden;
 }
 
-a{
-	text-decoration: none;
+p {
+	margin: 5px 0 20px 0;
 }
 
-nav {
+a{
+	text-decoration: none;
+	color: #5e5e5e;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+h2{
+	font-size: 18px;
+	line-height: 1.1;
+	margin-bottom: 8px;
+}
+
+nav, #wrapper {
 	max-width: 1400px;
 	min-width: 960px;
 	height: 49px;
@@ -31,11 +48,50 @@ nav a {
 
 nav a:hover{
 	background: url(../images/nav-hover.png) repeat-x;
+	text-decoration: none;
 }
 
 nav ul li {
 	float: left;
 	text-transform: uppercase;
+}
+
+main {
+	margin-right: 300px;
+	padding: 15px 38px 30px 10px;
+	
+}
+
+article{
+	border-bottom: 1px dashed #e5e5e5;
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+.sidebar {
+	width: 300px;
+	height: 400px;
+	background: #b2b2b2;
+	float: right;
+}
+
+.thumbnail {
+	float: left;
+	margin-bottom: 15px;
+}
+
+.thumbnail img{
+	border: 3px solid #e0e0e0;
+}
+
+.article_nav{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #aaa;
+	margin: 0 0 4px 0;
+}
+
+.article_content{
+	margin-left: 190px;
 }
 
 #logo {
